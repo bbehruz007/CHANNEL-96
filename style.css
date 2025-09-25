@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #1c1c1c;
+    /* fon rangi */
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #111;
+    /* header fon */
+    color: #fff;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav a {
+    color: #aaa;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.nav a:hover {
+    color: #fff;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+}
+
+.language a {
+    color: #aaa;
+    text-decoration: none;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.language img {
+    width: 18px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.language .divider {
+    color: #555;
+    margin: 0 5px;
+}
+
+.language a.active {
+    color: #fff;
+}
+
+.section-content {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('foggy-hallway-with-stairs-light-fixtures_947498-14660.png') no-repeat center center/cover;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+
+.content {
+    background: rgba(0, 0, 0, 0.6);
+    /* qora shaffof fon */
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 700px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+strong {
+    color: #ffd700;
+    /* oltin rang */
+}
+
+.social-section {
+    position: relative;
+    height: 100vh;
+    background: url('SAMUEL GAMES.https.com.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.65);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+    max-width: 600px;
+}
+
+.overlay h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.overlay p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.socials {
+    margin-top: 15px;
+}
+
+.socials a {
+    margin: 0 12px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.socials a:hover {
+    transform: scale(1.2);
+}
